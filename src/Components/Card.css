@@ -1,0 +1,41 @@
+.card {
+  margin: 0 1.25rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border: 1px solid orange;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.card__submit {
+  align-items: center;
+  justify-content: center;
+}
+.card__submit-number {
+  display: block;
+  width: 80px;
+  text-align: center;
+  padding: 2px;
+  outline: none;
+  border: 2px solid rgba(252, 199, 101, 1);
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.card__submit-number:focus {
+  border: 2px solid rgba(252, 199, 101, 1);
+}
+.card__submit-btn {
+  background-color: orange;
+  color: #fff;
+  padding: 3px 6px;
+  border-style: none;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1rem;
+}
+.card__itemName {
+  font-weight: 600;
+}

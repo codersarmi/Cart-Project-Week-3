@@ -1,0 +1,41 @@
+.cartbox {
+  background: #fff;
+  padding: 1.25rem 2.5rem;
+  width: 70%;
+}
+
+.cart-total-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin-bottom: 5px;
+}
+.cart-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+}
+.order-btn {
+  background-color: orange;
+
+  color: #fff;
+  padding: 3px 6px;
+  border-style: none;
+  border: 1px solid orange;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.close-btn {
+  background-color: transparent;
+  border: 1px solid orange;
+  color: orange;
+  padding: 3px 6px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 0.85rem;
+  margin-right: 0.625rem;
+  font-weight: 500;
+}
