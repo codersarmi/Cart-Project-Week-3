@@ -1,3 +1,40 @@
 .cart {
-  width: 70%;
+  text-align: center;
+  justify-content: space-between;
 }
+
+.card__itemName {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.card__itemprice {
+  font-size: 1rem;
+  margin-top: 3px;
+}
+.card__submit {
+  text-align: center;
+  justify-content: center;
+}
+.card_quantity {
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: orange;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.card_qty_btn {
+  font-size: 1rem;
+  border: 1px solid orange;
+  padding: 3px 6px;
+  color: orange;
+  background-color: transparent;
+  border-radius: 5px;
+  text-align: center;
+}
+.card_qty_btn:last-child {
+  margin-left: 5px;
+}
+
+/* Pause minute 6:48 in Lesson 17 video*/
